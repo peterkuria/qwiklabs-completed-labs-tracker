@@ -8,7 +8,7 @@ For more information, please read my post "[Userscript for Labelling Completed Q
 - To indicate completed labs and quests in Qwiklabs Catalog pages, thereby easier to inspect the self-learning progress and look for unenrolled quests or incompleted labs.
 - To design a location to store and update the name list of the completed items.
 
-## Supoort this Project
+## Suport this Project
 
 <a href="https://www.buymeacoffee.com/chrisfungky" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
 
@@ -24,35 +24,19 @@ As a Qwiklabs user, I figure out it is messy and damp to lookup unenrolled quest
 - Easy to execute and edit the userscript via Tampermonkey for Google Chrome
 - Add a green check-circle at the end of a lab title if the lab has been completed.
 
-**Ver >= 0.4.5:**
-- Improve performance by using JSON-markup for storing lab and quest data.
-- Add green highlights to the completed items
-- Add annotations to _Your Favorites_ in the **My Learning** page.
-- Add color backgrounds to each row in tables of the _Completed Courses_ and _Completed Labs_ pages under the **My Learning** section for cross-checking.
 
-**Ver >= 0.4.8:**
-- Add yellow highlights and badges to any labs and quests unregistered to the JSON-markup data.
-- Extend color schemes to the short tables of the _Completed Courses_ and _Completed Labs_ pages on the **My Learning** page.
-- Enhance the annotation scheme to the “Your Favorites”, “Featured Learning”, and “What’s Hots” sections on the Home page.
-
-**Ver >= 0.5.0:**
-- Store the labs and quests data locally with IndexedDB
-- Use Async Await in JavaScript
-
-**Ver >= 0.5.1d:**
-- One-click update the labs and quests status to databases
 
 ![Update to DB](/screenshots/qwiklab-complete-indicator-group-update-button.png)
+
+## Examples
+![Recently completed labs](/screenshoots/recently_completed_labs.jpg)
+<br>
+![demo completed labs](/screenshoots/App%20Dev%201.jpg)
+
 
 ## Demo Screenshot
 ![demo image](/demo-image.png)  
 Screenshot of a Catalog page
 
-<br>
 
-![demo image](/demo-image2.png)  
-Screenshot of a Lab header
 
-## Future Plans
-
-- [Sync IndexedDB across computers](https://github.com/peterkuria/qwiklabs-completed-labs-tracker/issues/7) #7
